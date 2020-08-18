@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "lint": "eslint **/*.js --quiet",
+    "lint:fix": "eslint **/*.js --quiet --fix",
     "test": "npm run lint"
   },
   "license": "ISC",
